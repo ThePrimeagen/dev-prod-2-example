@@ -9,9 +9,9 @@ if [ ! -d $HOME/personal ]; then
     mkdir $HOME/personal
 fi
 
-git clone https://github.com/ThePrimeagen/dev $HOME/personal/dev
+git clone https://github.com/ThePrimeagen/dev-prod-2-example $HOME/personal/dev-prod-2-example
 
-pushd $HOME/personal/dev
+pushd $HOME/personal/dev-prod-2-example
 ./run
 popd
 
